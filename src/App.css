@@ -1,33 +1,104 @@
-.App {
+/*- Typograpy and resets -*/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background-color: #fff;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 400;
+}
+h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*- Card container -*/
+.card-container {
+  position: relative;
+  z-index: 1;
+  margin: 32px auto;
+  max-width: 720px;
+  height: 420px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*- Card body -*/
+.card-body {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+}
+
+/*- Flipping the card -*/
+.card-container:hover .card-body {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card-container:hover > .card-body > .side-front {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 1s ease-in, visibility 0.75s linear;
+  transition: opacity 1s ease-in, visibility 0.75s linear;
+}
+
+/*- Card sides -*/
+.card-side {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  color: #212121;
+  background-color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
+}
+
+/*- Front side -*/
+
+.side-front-content {
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+}
+
+/*- Back side -*/
+.side-back {
+  z-index: 2;
+  padding: 32px;
   text-align: center;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
