@@ -2,7 +2,7 @@
   "name": "bizcard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/bespinosa01/ReactBiz.git",
+  "homepage": "https://bespinosa01.github.io/ReactBiz/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
