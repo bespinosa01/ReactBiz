@@ -7,7 +7,7 @@ class CardProfileLinks extends React.Component {
 			"https://www.linkedin.com/in/brian-espinosa/"
 		];
 		const github = ["github", "https://github.com/bespinosa01"];
-		const profileLinks = [twitter, linkedin, github];
+		const profileLinks = [github, linkedin, twitter];
 
 		const linkList = profileLinks.map((link, index) => (
 			<div key={index} className="item">
