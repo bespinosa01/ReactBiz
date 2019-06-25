@@ -14,28 +14,23 @@ class CardFront extends React.Component {
 
 						<div className="column side-front-content">
 							<h2>Brian Espinosa</h2>
-
 							<h1>Web Developer</h1>
-
-							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam, quis nostrud exercitation
-								ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.
+							<p className="card-content">
+								Greetings! I am a Chicago based developer who
+								graduated from Aurora University with my
+								Bachelor in Business Administration.
 							</p>
-
-							<p>
-								Duis aute irure dolor in reprehenderit in
-								voluptate velit esse cillum dolore eu fugiat
-								nulla pariatur.
+							<p className="card-content">
+								During my time at the University I filled my
+								extra curriculars with CS courses and attended a
+								few MLH hackathons. My team was fortunate enough
+								to be awarded for{" "}
+								<i>Best Use of Cloud Computing</i> at the Iowa
+								State University Hackaton (Spring '17).
 							</p>
-
-							<p>
-								Excepteur sint occaecat cupidatat non proident,
-								sunt in culpa qui officia deserunt mollit anim
-								id est laborum.
+							<p className="card-content">
+								My passion for building and solving problems
+								through tech only grew from there.
 							</p>
 						</div>
 					</div>
