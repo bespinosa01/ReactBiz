@@ -10,7 +10,10 @@ class CardBack extends React.Component {
 		return (
 			<div className="card-side side-back">
 				<div className="ui segment">
-					<form formAction="" className="ui mini form">
+					<form
+						formAction="mailto:bespinosa1931@gmail.com"
+						className="ui mini form"
+					>
 						<h4 className="ui dividing header">Let's Talk</h4>
 
 						<div className="ui two column very relaxed grid">
@@ -62,6 +65,7 @@ class CardBack extends React.Component {
 									className="ui blue button"
 									type="submit"
 									value="Submit"
+									onSub
 								/>
 							</div>
 						</div>

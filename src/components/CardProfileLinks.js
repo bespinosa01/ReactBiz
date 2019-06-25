@@ -1,13 +1,23 @@
 import React from "react";
 class CardProfileLinks extends React.Component {
 	render() {
-		const profileLinks = ["twitter", "linkedin", "facebook", "github"];
+		const twitter = ["twitter", "https://twitter.com/BrianOurFriend"];
+		const linkedin = [
+			"linkedin",
+			"https://www.linkedin.com/in/brian-espinosa/"
+		];
+		const github = ["github", "https://github.com/bespinosa01"];
+		const profileLinks = [twitter, linkedin, github];
 
 		const linkList = profileLinks.map((link, index) => (
 			<div key={index} className="item">
-				<button className={`mini ui icon ${link} button`}>
-					<i className={`${link} icon`} />
-				</button>
+				<a
+					className={`mini ui icon ${link[0]} button`}
+					href={link[1]}
+					target="_blank"
+				>
+					<i className={`${link[0]} icon`} />
+				</a>
 			</div>
 		));
 		return (
