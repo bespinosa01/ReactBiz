@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactBiz/static/css/main.290951d7.chunk.css",
+    "main.css": "/ReactBiz/static/css/main.fdf740c8.chunk.css",
     "main.js": "/ReactBiz/static/js/main.b6b28bd4.chunk.js",
     "main.js.map": "/ReactBiz/static/js/main.b6b28bd4.chunk.js.map",
     "runtime~main.js": "/ReactBiz/static/js/runtime~main.e1561bc8.js",
@@ -8,8 +8,8 @@
     "static/js/2.d6a534e5.chunk.js": "/ReactBiz/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/ReactBiz/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/ReactBiz/index.html",
-    "precache-manifest.9519d217bea65167179e63108b433682.js": "/ReactBiz/precache-manifest.9519d217bea65167179e63108b433682.js",
+    "precache-manifest.c60f9acddde21488d1ae4dd6bbea2678.js": "/ReactBiz/precache-manifest.c60f9acddde21488d1ae4dd6bbea2678.js",
     "service-worker.js": "/ReactBiz/service-worker.js",
-    "static/css/main.290951d7.chunk.css.map": "/ReactBiz/static/css/main.290951d7.chunk.css.map"
+    "static/css/main.fdf740c8.chunk.css.map": "/ReactBiz/static/css/main.fdf740c8.chunk.css.map"
   }
 }
