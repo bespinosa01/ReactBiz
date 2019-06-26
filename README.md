@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Live Demo 
+## Live Demo 
 A live demo of the project can be found here: https://bespinosa01.github.io/ReactBiz/
 
 ## Available Scripts
